@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primer formulario</title>
+</head>
+<body>
+    <form method="post"> 
+        <label for="input-nombre">Nombre</label>
+        <input name="input-nombre" type="Name" required autofocus/> <br/> 
+        <label for="input-correo">Correo</label>
+        <input name="input-correo" type="email" required/>  <br/> 
+        <label for="input-url">introduce una url:</label>
+        <input type="input-url" id="input-url"/> <br/> 
+        <label for="fechaInput">Selecciona una fecha:</label>
+        <input type="date" id="fechaInput" name="fechaInput" required> <br/>
+        <label for="horaInput">Selecciona una hora:</label>
+        <input type="time" id="horaInput" name="horaInput" required> <br/>
+        <label for="telefonoInput">Introduce tu número de teléfono:</label>
+        <input type="tel" id="telefonoInput" name="telefonoInput" required> <br/>
+        <label for="numeroInput">Introduce un número entre -10 y 10:</label>
+  <input type="number" id="numeroInput" name="numeroInput" min="-10" max="10" required> <br/>
+        <label for="input-contraseña">Contraseña</label>
+        <input name="input-contraseña" type="password" required/> <br/>
+
+
+        <input type="submit" value="Iniciar sesion"/>
+        <input type="reset" value="Intentar denuevo"/>
+    </form>
+
+</body>
+</html>
